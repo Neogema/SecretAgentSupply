@@ -1,0 +1,124 @@
+/* Header */
+header {
+  background: black;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  padding: 12px 0 12px 0.5em;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+.logo span {
+  font-size: 1rem;
+}
+/* Body */
+html {
+  font-size: 18px;
+  background-color: white;
+}
+body {
+  font-family: Helvetica;
+  color: white;
+  margin: 0;
+}
+.top {
+  height: 25rem;
+  display: flex;
+  background-image: url(../images/banner.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.newarrival {
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin: 9rem 0 6rem 20rem;
+  background-color: black;
+  width: 20rem;
+  padding-left: 3rem;
+  padding-right: 0.50rem;
+}
+.newarrival span {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+}
+.newarrival h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+nav {
+  background-color: firebrick;
+}
+.menu, .middle, .bottom {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.smallmenu {
+  display: none;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 3rem 0;
+}
+.item {
+  width: 30%;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+  border: 4px solid black;
+  padding: 2rem 0;
+}
+.image img {
+  max-width: 8rem;
+}
+.item span {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  padding: 0.5rem;
+  border: 2px solid blue;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.location {
+  width: 35%;
+}
+.location h6 {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+.location span {
+  color: black;
+}
+/* Footer */
+footer {
+  background-color: black;
+  padding: 5rem 0;
+}
+.copyright {
+  max-width: 960px;
+  margin: 0px auto;
+}
