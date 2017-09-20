@@ -72,6 +72,10 @@ nav ul {
   justify-content: space-between;
   padding: 0.75rem 0;
 }
+.menu a, .smallmenu a {
+  text-decoration: none;
+  color: white;
+}
 .items {
   display: flex;
   justify-content: space-between;
@@ -141,5 +145,41 @@ footer {
   }
   .newarrival {
     margin: 9rem 0 6rem 0rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .topcon {
+    height: 15rem;
+  }
+  .newarrival {
+    width: 100%;
+    margin: 10rem 0 0.25rem 0;
+    padding: 1rem 0 1.75rem 2rem;
+  }
+  .newarrival span {
+    font-size: 0.77rem;
+  }
+  .newarrival h1 {
+    font-size: 1rem;
+  }
+  .items {
+    justify-content: space-around;
+  }
+  .itempen {
+    width: 90%;
+  }
+  .itemwatch, .itemglasses {
+    display: none;
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+  .copyright {
+    text-align: center;
   }
 }
